@@ -17,7 +17,7 @@ $(document).ready(function(){
     
     
     // Create and add each prodcut card to the slider
-    products.forEach((product, index) => {
+    products.forEach(function(product, index) {
 
         // Add each product
         $('.campaign-slider').slick('slickAdd', createProductCard(product, index));
